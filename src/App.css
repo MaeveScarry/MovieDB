@@ -20,7 +20,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fb61a9;
 }
 
 @keyframes App-logo-spin {
@@ -30,4 +30,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Start {
+  color: #6b61fb;
 }
