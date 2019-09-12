@@ -1,6 +1,10 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
+import InputGroup from "react-bootstrap/InputGroup";
+import FormControl from "react-bootstrap/FormControl";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import "./App.css";
 
 function App() {
@@ -8,11 +12,18 @@ function App() {
     <div className="App">
       <Jumbotron fluid>
         <Container>
-          <h1>Fluid jumbotron</h1>
-          <p>
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
-          </p>
+          <InputGroup className="mb-3">
+            <InputGroup.Prepend>
+              <InputGroup.Text id="basic-addon1">
+              <FontAwesomeIcon icon={faSearch}/>
+              </InputGroup.Text>
+            </InputGroup.Prepend>
+            <FormControl
+              placeholder="Film title"
+              aria-label="Film title"
+              aria-describedby="basic-addon1"
+            />
+          </InputGroup>
         </Container>
       </Jumbotron>
     </div>
