@@ -1,5 +1,8 @@
 .hero-heading {
     margin-bottom: 5rem;
-    color: blue;
+    color: #28a745;
     font-weight: bold;
+}
+.jumbotron {
+    background-color:#155724;
 }
