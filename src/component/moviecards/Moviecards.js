@@ -8,12 +8,11 @@ function Moviecards() {
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRv0ZNSwBwp4-O1lbm-0dWeVt3u88csIRTqCf6inDlPy9WhQ5vs" />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Hi sonya</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            What's you favourite film?
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary">Click here</Button>
         </Card.Body>
       </Card>
     );

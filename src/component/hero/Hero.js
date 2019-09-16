@@ -11,7 +11,7 @@ function Hero() {
   return (
     <Jumbotron fluid>
       <Container> 
-        <h1 className="hero-heading">Find YOUR film - hi sonya</h1>
+        <h1 className="hero-heading">Find YOUR film</h1>
         <InputGroup className="mb-3">
           <InputGroup.Prepend>
             <InputGroup.Text id="basic-addon1">
