@@ -10,8 +10,6 @@ import "./Hero.css";
 const API = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_MOVIEDB_API}&query=`;
 const QUERY = 'Titanic';
 
-console.log(process.env.REACT_APP_MOVIEDB_API)
-
 class Hero extends Component {
   constructor() {
     super();
